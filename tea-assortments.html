@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carpe Diem - Ceai</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2rem;
+        }
+
+        .menu-section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .menu-section h2 {
+            margin-bottom: 20px;
+        }
+
+        .menu-grid {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .menu-item {
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            overflow: hidden;
+            background-color: #f9f9f9;
+        }
+
+        .menu-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .menu-item h3 {
+            margin: 0;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+
+        .menu-item p {
+            padding: 10px;
+            color: #555;
+        }
+
+        .menu-item .price {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 0.5rem;
+            background-color: #333;
+            color: white;
+            font-size: 0.9rem;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Carpe Diem - Sortimente de Ceai</h1>
+        <nav>
+            <a href="menu.html">Înapoi la Meniu</a>
+        </nav>
+    </header>
+
+    <div class="menu-section">
+        <h2>Sortimente de Ceai</h2>
+        <div class="menu-grid">
+            <!-- Ceai Padure -->
+            <div class="menu-item">
+                <img src="assets/images/ceai-fructe-padure.png" alt="Ceai Fructe de Padure">
+                <h3>Ceai Fructe de Padure</h3>
+                <p>	Ceai de fructe de pădure - 1 plic de ceai, fructe proaspete, miere/zahăr, apă fierbinte, lămâie.</p>
+                <p class="price">Preț: 8 RON</p>
+            </div>
+            <!-- Ceai verde cu mentă  -->
+            <div class="menu-item">
+                <img src="assets/images/ceai-menta.png" alt="Ceai Verde cu Mentă ">
+                <h3>Ceai Verde cu Mentă </h3>
+                <p>Ceai verde cu mentă - 1 plic de ceai, mentă proaspătă, miere, lămâie, apă fierbinte.</p>
+                <p class="price">Preț: 7 RON</p>
+            </div>
+            <!-- Ceai de Iarna -->
+            <div class="menu-item">
+                <img src="assets/images/ceai-iarna.png" alt="Ceai de Iarna">
+                <h3>Ceai de Iarna</h3>
+                <p>Ceai de Iarna - 2 plicuri de ceai negru, scorțișoară, portocale, apă fierbinte, cuișoare, miere.</p>
+                <p class="price">Preț: 10 RON</p>
+            </div>
+            <!-- Ceai Negru -->
+            <div class="menu-item">
+                <img src="assets/images/ceai-lapte.png" alt="Ceai Negru">
+                <h3>Ceai Negru</h3>
+                <p>Rețetă chinezească - 2 plicuri de ceai negru, lapte, zahăr, scorțișoară, apă fierbinte, păstăi de cardamom, cuișoare, ghimbir.</p>
+                <p class="price">Preț: 11 RON</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Carpe Diem Coffee Shop</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carpe Diem - Cafea</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2rem;
+        }
+
+        .menu-section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .menu-section h2 {
+            margin-bottom: 20px;
+        }
+
+        .menu-grid {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .menu-item {
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            overflow: hidden;
+            background-color: #f9f9f9;
+        }
+
+        .menu-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .menu-item h3 {
+            margin: 0;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+
+        .menu-item p {
+            padding: 10px;
+            color: #555;
+        }
+
+        .menu-item .price {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 0.5rem;
+            background-color: #333;
+            color: white;
+            font-size: 0.9rem;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Carpe Diem - Sortimente de Dulciuri</h1>
+        <nav>
+            <a href="menu.html">Înapoi la Meniu</a>
+        </nav>
+    </header>
+
+    <div class="menu-section">
+        <h2>Sortimente de Dulciuri</h2>
+        <div class="menu-grid">
+            <!-- Croissant simplu -->
+            <div class="menu-item">
+                <img src="assets/images/croissont.png" alt="Croissant simplu">
+                <h3>Croissant simplu</h3>
+                <p>Ingrediente - faină, drojdie proaspătă, zahăr, lapte, unt, ou.</p>
+                <p class="price">Preț: 3 RON</p>
+            </div>
+            <!-- Ștrudel cu mere -->
+            <div class="menu-item">
+                <img src="assets/images/strudel.png" alt="Ștrudel cu mere">
+                <h3>Ștrudel cu mere</h3>
+                <p>Ingrediente - mere, faină, ou, pesmet, apă, zahăr, ulei, scorțișoară, stafide, lapte.</p>
+                <p class="price">Preț: 5 RON</p>
+            </div>
+            <!-- Ștrudel cu brânză dulce și stafide -->
+            <div class="menu-item">
+                <img src="assets/images/strudel-branza.png" alt="Ștrudel cu brânză dulce și stafide">
+                <h3>Ștrudel cu brânză dulce și stafidee</h3>
+                <p>Ingrediente - brânză de vaci, zahăr, lapte, ulei, ou, faină, pesmet, apă, stafide.</p>
+                <p class="price">Preț: 5 RON</p>
+            </div>
+            <!-- Melc cu scroțișoară -->
+            <div class="menu-item">
+                <img src="assets/images/melc.png" alt="Melc cu scroțișoară">
+                <h3>Melc cu scroțișoară</h3>
+                <p>Ingrediente - faină, lapte, ou, zahăr brun, drojdie, unt normal/topit, scorțișoară.</p>
+                <p class="price">Preț: 6 RON</p>
+            </div>
+            <!-- Mini-tarte cu fructe  -->
+            <div class="menu-item">
+                <img src="assets/images/tarte.png" alt="Mini-tarte cu fructe">
+                <h3>Mini-tarte cu fructe</h3>
+                <p>Ingrediente - faină, gelatină, ou, lapte, zahăr, unt, gălbenușuri, esență de vanilie, fructe proaspete: căpșuni, kiwi, ananas, afine, struguri.</p>
+                <p class="price">Preț: 3 RON/bucata</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Carpe Diem Coffee Shop</p>
+    </footer>
+</body>
+</html>
